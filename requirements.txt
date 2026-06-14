@@ -1,0 +1,18 @@
+# Core
+pandas
+numpy
+scikit-learn
+joblib
+
+# Plotting
+matplotlib
+seaborn
+
+# Models
+xgboost
+tabpfn          # TabPFN-3 (tabular foundation model) — GPU strongly recommended
+autogluon       # AutoML framework
+
+# Notebooks
+jupyter
+nbformat
