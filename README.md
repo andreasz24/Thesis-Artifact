@@ -37,8 +37,8 @@ How to run
 Each notebook is self-contained. Open any notebook in Google Colab and run all cells top to bottom — the first cell clones this repo and installs dependencies automatically.
 
 Notebook 1, Data exploration : Explores the dataset, performs preprocessing and creates the train/test split
-Notebook 2, XGBoost : Trains and evaluates the XGBoost baseline
 
+Notebook 2, XGBoost : Trains and evaluates the XGBoost baseline
 
 Notebook 3, TabPFN : Runs the TabPFN estimators experiment (recommended to perform with GPU) (requires a free API token from Prior Labs — instructions are in the notebook.)
 
