@@ -36,17 +36,18 @@ How to run
 
 Each notebook is self-contained. Open any notebook in Google Colab and run all cells top to bottom — the first cell clones this repo and installs dependencies automatically.
 
-NotebookWhat it doesRuntime1_data_explorationExplores the dataset and creates the train/test split~10s2_xgboostTrains and evaluates the XGBoost baseline~30s3_tabpfnRuns the TabPFN n_estimators experiment~2 min (GPU)4_autogluonRuns the AutoGluon grid search~20 min
+Notebook 1, Data exploration : Explores the dataset, performs preprocessing and creates the train/test split
+Notebook 2, XGBoost : Trains and evaluates the XGBoost baseline
 
-TabPFN (notebook 3) requires a free API token from Prior Labs — instructions are in the notebook.
 
-A GPU is recommended for notebook 3: Runtime → Change runtime type → GPU.
+Notebook 3, TabPFN : Runs the TabPFN estimators experiment (recommended to perform with GPU) (requires a free API token from Prior Labs — instructions are in the notebook.)
+
+Notebook 4, AutoGluon : performs the AutoGluon grid search experiment
 
 To run locally instead of Colab:
 
 bashpip install -r requirements.txt
 jupyter notebook
-
 
 Data
 
